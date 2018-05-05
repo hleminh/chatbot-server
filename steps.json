@@ -1,0 +1,33 @@
+[
+  {
+    "id": "-1",
+    "message": "Xin lỗi, tôi không hiểu ý của bạn. Xin hãy thử lại.",
+    "next": "0"
+  },
+  {
+    "id": "0",
+    "message":
+      "Xin chào! Tôi là Chat Bot",
+    "options": [
+      {
+        "case": "1",
+        "next": "0-1i"
+      }
+    ]
+  },
+  {
+    "id": "0-1i",
+    "message": "Xin hãy nhập input",
+    "next": "0-1p"
+  },
+  {
+    "id": "0-1p",
+    "action":"() => {console.log(\"test\")}",
+    "next": "result"
+  },
+  {
+    "id": "result",
+    "message": "",
+    "next": "0"
+  }
+]

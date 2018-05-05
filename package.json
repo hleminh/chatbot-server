@@ -1,0 +1,30 @@
+{
+  "name": "chatbot-server",
+  "version": "1.0.0",
+  "description": "Chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "hoang",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "http-status": "^1.0.1",
+    "mongoose": "^5.0.13",
+    "mongoose-function": "^0.1.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "npm": "^5.7.1",
+    "vntk": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
